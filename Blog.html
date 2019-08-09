@@ -2,14 +2,15 @@
 
 <html lang="en" class="no-js">
 
-<!--     head -->
+<!-- head -->
     <head>
         <meta charset="utf-8"/>
-        <title>EECS courses Page</title>
+        <title>Blog</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta content="" name="description"/>
         <meta content="" name="author"/>
+
 
         <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
         <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
@@ -18,6 +19,7 @@
         <link href="vendor/swiper/css/swiper.css" rel="stylesheet" type="text/css"/>
         <link href="css/layout.css" rel="stylesheet" type="text/css"/>
         <link href="css/footer.css" rel="stylesheet" type="text/css"/>
+        <link href="css/blog.css" rel="stylesheet" type="text/css"/>
         <link rel="shortcut icon" href="favicon.ico"/>
         <link href="css/eecs.css" rel="stylesheet" type="text/css"/>
     </head>
@@ -25,7 +27,6 @@
 
     <body>
         <header class="header navbar-fixed-top">
-
             <nav class="navbar" role="navigation">
                 <div class="container">
                     
@@ -40,12 +41,12 @@
                     <div class="collapse navbar-collapse nav-collapse">
                         <div class="menu-container">
                             <ul class="navbar-nav navbar-nav-right">
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="index.html">Home</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="project.html">Project</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="Blog.html">Blog</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="photograph.html">Photograph</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="eecs.html">EECS</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="me.html">About Me</a></li>
+                                <li class="nav-item"><a class="nav-item-child textblack nav-item-hover" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-item-child textblack nav-item-hover" href="product.html">Project</a></li>
+                                <li class="nav-item"><a class="nav-item-child textblack nav-item-hover active" href="Blog.html">Blog</a></li>
+                                <li class="nav-item"><a class="nav-item-child textblack nav-item-hover" href="photograph.html">Photograph</a></li>
+                                <li class="nav-item"><a class="nav-item-child textblack nav-item-hover" href="eecs.html">EECS</a></li>
+                                <li class="nav-item"><a class="nav-item-child textblack nav-item-hover" href="me.html">About Me</a></li>
                             </ul>
                         </div>
                     </div>
@@ -55,99 +56,71 @@
 
         </header>
 
-        <div class="parallax-window" data-parallax="scroll" id="large-header" class="large-header" data-image-src="img/11.jpg">
-            <canvas id="demo-canvas"></canvas>
-            <div class="parallax-content container">
+        
 
-            <h1 class="main-title">EECS<span class="thin">Resources</span></h1>
+
+        <!-- text -->
+        <div class="page">
+            <h1 class="page-title">Index</h1>
+            <div id="archives">
+          
+            <div class="archive-group">
+              
+                <div id="#Note"></div>
+                
+                <h3 class="category-head">Note</h3>
+                <a name="Note"></a>
+                
+                <article class="archive-item">
+                    <h4><a href="/note/2019/06/12/curl-test-in-local/">cUrl Test in local</a></h4>
+                </article>
+                
+                <article class="archive-item">
+                    <h4><a href="/note/2019/02/14/C-Special-Pointer/">C Pointer</a></h4>
+                </article>
+                
+                <article class="archive-item">
+                    <h4><a href="/note/2018/12/29/convolutional-neural-networks/">Convolutional Neural Network</a></h4>
+                </article>
+                
+                <article class="archive-item">
+                    <h4><a href="/note/2018/12/24/reinforcement-learning/">Reinforcement Learning</a></h4>
+                </article>
+                
+                <article class="archive-item">
+                    <h4><a href="/note/2018/12/18/bittorrent/">how bit torrent works</a></h4>
+                </article>
+                
+                <article class="archive-item">
+                    <h4><a href="/note/2018/12/17/p2p-study/">P2P concept study</a></h4>
+                </article>
+              
             </div>
-
-            <div class="arrow"></div>
+          
+            <div class="archive-group">
+              
+                <div id="#Linux"></div>
+                <p></p>
+                
+                <h3 class="category-head">Linux</h3>
+                <a name="Linux"></a>
+                
+                <article class="archive-item">
+                    <h4><a href="/linux/2019/01/05/sshd-refuse-on-bad-ownership-or-modes/">SSH refuse on bad ownership or modes</a></h4>
+                </article>
+                
+                <article class="archive-item">
+                    <h4><a href="/linux/2019/01/03/drop-ssh-sessions/">Drop Inactive SSH Sessions</a></h4>
+                </article>
+              
+            </div>
+          
+            </div>
         </div>
+   
 
 
-        <div class="img"> 
-            <img src="img/course.png" style="width: 80%; height: 100%;" /> 
-        </div> 
-
-
-        <table class="tablebody">
-            <thead>
-                <tr>
-                    <th>Course</th>
-                    <th>Credit</th>
-                    <th>Description</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><strong>EECS1012</strong></td>
-                    <td>3.0</td>
-                    <td>Net-centric Introduction to Computing</td>
-                </tr>
-                <tr>
-                    <td><strong>EECS1022</strong></td>
-                    <td>3.0</td>
-                    <td>Programming for Mobile Computing</td>
-                </tr>
-                <tr>
-                    <td><strong>EECS2001</strong></td>
-                    <td>3.0</td>
-                    <td>Introduction to the Theory of Computation</td>
-                </tr>
-                <tr>
-                    <td><strong>EECS2011</strong></td>
-                    <td>4.0</td>
-                    <td>Fundamentals of Data Structures</td>
-                </tr>                   
-                <tr>
-                    <td><strong>EECS2021</strong></td>
-                    <td>3.0</td>
-                    <td>Computer Organization</td>
-                </tr>
-                <tr>
-                  <td><strong>EECS2030</strong></td>
-                  <td>3.0</td>
-                  <td>Advanced Object Oriented Programming</td>
-                </tr>
-                <tr>
-                  <td><strong>EECS2031</strong></td>
-                  <td>3.0</td>
-                  <td>Software Tools</td>
-                </tr>
-                <tr>
-                  <td><strong>EECS3101</strong></td>
-                  <td>3.0</td>
-                  <td>Design and Analysis of Algorithms</td>
-                </tr>
-                <tr>
-                  <td><strong>EECS3221</strong></td>
-                  <td>3.0</td>
-                  <td>Operating System Fundamentals</td>
-                </tr>
-                <tr>
-                  <td><strong>EECS3311</strong></td>
-                  <td>3.0</td>
-                  <td>Software Design</td>
-                </tr>
-                <tr>
-                  <td><strong>EECS3421</strong></td>
-                  <td>3.0</td>
-                  <td>Introduction to Database Systems</td>
-                </tr>
-                 <tr>
-                  <td><strong>EECS3461</strong></td>
-                  <td>3.0</td>
-                  <td>IUser Interfaces</td>
-                </tr>
-                 <tr>
-                  <td><strong>EECS3482</strong></td>
-                  <td>3.0</td>
-                  <td>Introduction to Computer Security</td>
-                </tr>
-              </tbody>
-        </table>
-
+       
         <footer>
                 <div class="layoutfoot">
                     <div class="footer-wrapper clearfix">

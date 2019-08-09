@@ -1,0 +1,14 @@
+body {
+    background: rgb(255, 255, 255);
+}
+
+a {
+    color: #6a9fb5;
+    text-decoration: none
+
+}
+
+.info{
+    margin-top: 110px;
+    margin-left: 300px;
+}

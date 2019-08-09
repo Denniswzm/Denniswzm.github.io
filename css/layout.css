@@ -1,27 +1,5 @@
 @charset "UTF-8";
-/*----------------------------------------------------------------------
 
-	MASTER STYLESHEET
-
-	Project:        Metronic "Asentus" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
-	Version:        1.0
-	Author:         KeenThemes
-	Primary use:    Corporate, Business Themes.
-	Email:			support@keenthemes.com
-	Follow: 		http://www.twitter.com/keenthemes
-	Like: 			http://www.facebook.com/keenthemes
-	Website:		http://www.keenthemes.com
-	Premium:		Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
-
------------------------------------------------------------------------*/
-/* eg: @include user-select(none); */
-/* eg: @include rotate(45deg); */
-/* eg: @include translate3d(0,0,0); */
-/* eg: @include border-radius(3px); */
-/*------------------------------------------------------------------
-  	[The "base.scss" contains basic default element styles
-  		(colors, typography, margins & padding).]
-------------------------------------------------------------------*/
 html {
   overflow-x: hidden;
 }
@@ -87,6 +65,10 @@ span {
   font-weight: 400;
   font-family: Hind, sans-serif;
   color: #bfc1c7;
+}
+
+.textblack{
+  color: black !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
