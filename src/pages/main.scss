@@ -1,0 +1,410 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:600);
+
+body {
+	// display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: #222;
+}
+
+.imgblock{
+    // width: 100%;
+    background: no-repeat url(../img/main.jpg);
+    background-size: cover;
+    margin: 0 auto;
+	// width: 100%;
+    min-height: 80vh;
+    max-width: 90%;
+}
+
+.img{
+    width: 100%;
+}
+
+.bottnContainer{
+	width: 100%;
+	padding-top: 40em;
+}
+
+#main-but {
+
+	a {
+		position: relative;
+		margin: 0 auto ;
+		display: inline-block;
+		padding: 15px 30px;
+		font-size: large;
+		color: white;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		text-decoration: none;
+		font-size: 1.2em;
+		overflow: hidden;
+		transition: 0.2s;
+	}
+	
+	// botton animation
+	
+	a:hover{
+		color: #255784;
+		background-color: white;
+		box-shadow: 0 0 10px #222, 0 0 10px #222, 0 0 10px #222;
+		transition-delay: 1s;
+	}
+	
+	a span{
+		position: absolute;
+		display: block;
+	}
+	
+	a span:nth-child(1){
+		top: 0;
+		left: -100%;
+		width: 100%;
+		height: 2px;
+		background: linear-gradient(90deg, transparent , white);
+	}
+	
+	a:hover span:nth-child(1){
+		left: 100%;
+		transition: 1s;
+	}
+	
+	a span:nth-child(2){
+		top: -100%;
+		right: 0;
+		width: 2px;
+		height: 100%;
+		background: linear-gradient(180deg, transparent , white);
+	}
+	
+	a:hover span:nth-child(2){
+		top: 100%;
+		transition: 1s;
+		transition-delay: 0.25s;
+	}
+	
+	a span:nth-child(3){
+		bottom: 0;
+		right: -100%;
+		width: 100%;
+		height: 2px;
+		background: linear-gradient(270deg, transparent , white);
+	}
+	
+	a:hover span:nth-child(3){
+		right: 100%;
+		transition: 1s;
+		transition-delay: 0.5s;
+	}
+	
+	a span:nth-child(4){
+		bottom: -100%;
+		left: 0;
+		width: 2px;
+		height: 100%;
+		background: linear-gradient(360deg, transparent , white);
+	}
+	
+	a:hover span:nth-child(4){
+		bottom: 100%;
+		transition: 1s;
+		transition-delay: 0.75s;
+	}
+}
+
+
+
+
+.maintext1{
+     position: fixed;
+     top: 97vh;
+     left: 45vw;
+}
+ 
+.maintext2{
+     position: fixed;
+     font-weight: bold;
+     font-size: 20px;
+     top: 25vh;
+     left: 2vw;
+}
+
+.rotating-text {
+	width: 100%;
+	font-family: Lato, sans-serif;
+	font-weight: 600;
+	font-size: 36px;
+	color: black;
+	transform: translateX(-60px);
+
+  .word{
+    margin-left: 10px;
+  }
+
+  p {
+    display: inline-flex;
+    margin: 0;
+    vertical-align: top;
+
+    .word {
+      position: absolute;
+      display: flex;
+      opacity: 0;
+
+      .letter {
+        transform-origin: center center 25px;
+
+        &.out {
+          transform: rotateX(90deg);
+          transition: 0.32s cubic-bezier(0.6, 0, 0.7, 0.2);
+        }
+        &.in {
+          transition: 0.38s ease;
+        }
+        &.behind {
+          transform: rotateX(-90deg);
+        }
+      }
+    }
+  }
+}
+
+// palette: https://flatuicolors.com/palette/defo
+.alizarin {
+  color: #e74c3c;
+}
+
+.wisteria {
+  color: #8e44ad;
+}
+
+.peter-river {
+  color: #3498db;
+}
+
+.emerald {
+  color: #2ecc71;
+}
+
+.sun-flower {
+  color: #f1c40f;
+}
+
+// addition
+.cardcontainer1{
+	width: 100%;
+	margin-top: 1rem;
+}
+
+.card1{
+	background-color: #53BBB4 ;
+	height: 15em;
+	// position: flex;
+}
+
+.card2{
+	background-color: #5cb860 ;
+	height: 15em;
+}
+
+.card3{
+	background-color: #3079AB ;
+	height: 15em;
+}
+
+.card4{
+	background-color: #c25975;
+	height: 15em;
+}
+
+.card5{
+	background-color: #2c9676;
+	height: 15em;
+}
+
+.card6{
+	background-color: #96762c;
+	height: 15em;
+}
+
+.card7{
+	background-color: #962c4c;
+	height: 15em;
+}
+
+.card8{
+	background-color: #f092b0;
+	height: 15em;
+}
+
+.textstyle1{
+	font-size: medium;
+	color: white;
+}
+
+.iconstyle{
+	width: 3rem;
+	height: 3rem;
+}
+
+.buttonstyle1{
+	position: absolute;
+	left: 35%;
+	bottom: 15%;
+	// margin: 2rem auto 0;
+	// // float: left;
+	// bottom:10px;
+	// right:80px;
+}
+
+.cardcontainer2{
+	width: 80%;
+	// height: 60vh;
+}
+
+.imgcontainer{
+	position: relative;
+	width: 37em;
+	height: 30em;
+	border: 4px solid #000;
+}
+
+// block1
+
+.block1{
+	position: relative;
+	width: 80%;
+	height: 25em;
+	margin: 0 auto;
+}
+
+.textline1{
+	font-size: 3em;
+	font-weight: bolder;
+
+}
+
+.textline2{
+	font-size: 0.7em;
+}
+
+#main-but2{
+	// text-align:right;
+	// padding-bottom: 20em;
+	padding-left: 36vw;
+	// padding-top: 8em;
+	
+
+	a{
+		position: relative;
+		display: inline-block;
+		padding: 15px 30px;
+		border: 2px solid #111;
+		text-transform: uppercase;
+		color: #111;
+		text-decoration: none;
+		font-weight: 600;
+		font-size: 20px;
+	}
+
+	a:before{
+		content: '';
+		position: absolute;
+		top: 6px;
+		left: -2px;
+		width: calc(100% + 4px);
+		height: calc(100% - 12px);
+		background: #fff;
+		transform: 0.5s ease-in-out;
+		transform: scaleY(1);
+	}
+
+	a:hover:before{
+		transform: scaleY(0);
+	}
+
+	a:after{
+		content: '';
+		position: absolute;
+		left: 6px;
+		top: -2px;
+		height: calc(100% + 4px);
+		width: calc(100% - 12px);
+		background: #fff;
+		transform: 0.5s ease-in-out;
+		transform: scaleY(1);
+	}
+
+	a:hover:after{
+		transform: scaleY(0);
+	}
+
+	a span{
+		position: relative;
+		z-index: 3;
+	}
+
+}
+
+.textblock1{
+	position: absolute;
+	right: 0;
+	top: 5vh;
+	text-align: center;
+	// padding-left: 40em;
+	// padding-bottom: 10em;
+	// margin: -16em auto;
+	// margin-top: -15em;
+	width: 40vw;
+	// margin-right: -30em;
+	z-index: 100;
+	
+}
+@media(max-width: 1024) {
+
+}
+
+.imgcontainer2{
+    position: relative;
+	padding-top: 5em;
+	// margin-left: 10vw;
+    // margin: 0 auto;
+    // margin-top: 250px;
+    // margin-left: 20em;
+	max-width: 42em;
+	// height: 50em;
+	transform: skewY(-5deg);
+	img {
+		z-index: 0;
+	}
+	.imgBx{
+		position: relative;
+		width: 35vw;
+		height: 180px;
+		transform-origin: bottom;
+		// transform: skewX(45deg);
+		img{
+			position: absolute;
+			top: 0;
+			left: 0;
+			filter: grayscale(1);
+			max-width: 100%;
+			transition: 0.5s;
+		}
+	}
+	.imgBx:hover {
+		img:nth-child(3){
+			transform: translate(40px,-40px);
+		}
+		img:nth-child(2){
+			transform: translate(20px,-20px);
+			opacity: 0.2;
+		}
+		img:nth-child(1){
+			transform: translate(0px,0px);
+			opacity: 0.1;
+		}
+	}
+}
