@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.8bf40659.chunk.css",
-    "main.js": "/static/js/main.c34bdec5.chunk.js",
-    "main.js.map": "/static/js/main.c34bdec5.chunk.js.map",
+    "main.css": "/static/css/main.36c73782.chunk.css",
+    "main.js": "/static/js/main.c09dcce7.chunk.js",
+    "main.js.map": "/static/js/main.c09dcce7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9693e4c8.js",
     "runtime-main.js.map": "/static/js/runtime-main.9693e4c8.js.map",
     "static/css/2.a2026422.chunk.css": "/static/css/2.a2026422.chunk.css",
-    "static/js/2.750546bb.chunk.js": "/static/js/2.750546bb.chunk.js",
-    "static/js/2.750546bb.chunk.js.map": "/static/js/2.750546bb.chunk.js.map",
+    "static/js/2.e8a53f6c.chunk.js": "/static/js/2.e8a53f6c.chunk.js",
+    "static/js/2.e8a53f6c.chunk.js.map": "/static/js/2.e8a53f6c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b91bc0257a3363b34e77f5a6359b2910.js": "/precache-manifest.b91bc0257a3363b34e77f5a6359b2910.js",
+    "precache-manifest.a6a61a4cc809114b664b8e6818ee07ba.js": "/precache-manifest.a6a61a4cc809114b664b8e6818ee07ba.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.a2026422.chunk.css.map": "/static/css/2.a2026422.chunk.css.map",
-    "static/css/main.8bf40659.chunk.css.map": "/static/css/main.8bf40659.chunk.css.map",
-    "static/js/2.750546bb.chunk.js.LICENSE.txt": "/static/js/2.750546bb.chunk.js.LICENSE.txt",
+    "static/css/main.36c73782.chunk.css.map": "/static/css/main.36c73782.chunk.css.map",
+    "static/js/2.e8a53f6c.chunk.js.LICENSE.txt": "/static/js/2.e8a53f6c.chunk.js.LICENSE.txt",
     "static/media/001.jpg": "/static/media/001.b5da6ea5.jpg",
     "static/media/002.jpg": "/static/media/002.2d91298f.jpg",
     "static/media/003.jpg": "/static/media/003.3cfa813f.jpg",
@@ -26,6 +26,7 @@
     "static/media/010.jpg": "/static/media/010.c46e46ca.jpg",
     "static/media/011.jpg": "/static/media/011.e8a97ae3.jpg",
     "static/media/102.jpg": "/static/media/102.503bd0de.jpg",
+    "static/media/furryApp.jpg": "/static/media/furryApp.336452c7.jpg",
     "static/media/main.scss": "/static/media/main.7ddc76ae.jpg",
     "static/media/project001.jpg": "/static/media/project001.4807f964.jpg",
     "static/media/project002.jpg": "/static/media/project002.2d387703.jpg"
@@ -33,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.9693e4c8.js",
     "static/css/2.a2026422.chunk.css",
-    "static/js/2.750546bb.chunk.js",
-    "static/css/main.8bf40659.chunk.css",
-    "static/js/main.c34bdec5.chunk.js"
+    "static/js/2.e8a53f6c.chunk.js",
+    "static/css/main.36c73782.chunk.css",
+    "static/js/main.c09dcce7.chunk.js"
   ]
 }
